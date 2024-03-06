@@ -24,7 +24,10 @@
 
   .sidenav {
     height: 100%;
-    width: 160px;
+    width: 180px;
+    line-height: 62px;
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
     position: fixed;
     z-index: 1;
     top: 0;
@@ -32,6 +35,7 @@
     background-color: rgb(176, 176, 176);
     overflow-x: hidden;
     padding-top: 20px;
+    padding: 8px 8px 8px 32px;
   }
 
   .sidenav a:hover {
@@ -39,6 +43,24 @@
   }
 
   .main {
-    margin-left 160px;
+    margin-left: 220px;
     padding: 10px 10px;
+    font-family: Arial, Helvetica, sans-serif;
+
+  }
+
+  .row {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 4px;
+  }
+
+  .column {
+    margin-left: 220px;
+    flex: 70%
+  }
+
+  .column img {
+    margin-top: 8px;
+    vertical-align: middle;
   }
