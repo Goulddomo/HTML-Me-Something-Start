@@ -47,6 +47,7 @@
   .main {
     max-width: 640px;
     margin-left: 240px;
+    text-align: center;
     /* padding: 10px 10px; */
     font-family: Arial, Helvetica, sans-serif;
 
@@ -56,12 +57,16 @@
 
 
 .funParagraph {
-    color: green
-    max-width: 640px;
+    color: green;
+    /* max-width: 640px;
     margin-left: 240px;
     padding: 10px 10px;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: Arial, Helvetica, sans-serif; */
 
+  }
+
+  #mainHeading {
+    color: red;
   }
 
   /* .row {
